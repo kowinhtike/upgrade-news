@@ -15,6 +15,9 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    @vite(['resources/css/app.css'])
+    <link rel="stylesheet" href="{{ asset('build/assets/app-lhA9k1qk.css') }}">
+
 </head>
 <body>
     <div id="app">
@@ -91,5 +94,6 @@
         </main>
     </div>
 
+    <script src="{{ asset('build/assets/app-W7Y791fY.js') }}"></script>
 </body>
 </html>
